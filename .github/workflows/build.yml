@@ -8,8 +8,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install flet
-      - run: flet build apk --yes
+      - run: pip install flet==1.0.3
+      - run: flet build apk --yes -vv
       - uses: actions/upload-artifact@v4
         with:
           name: apk
