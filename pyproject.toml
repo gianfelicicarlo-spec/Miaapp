@@ -1,0 +1,8 @@
+[project]
+name = "miaapp"
+version = "1.0.0"
+description = "Arkanoid"
+dependencies = [
+    "flet",
+    "flet-audio",
+]
